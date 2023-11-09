@@ -1,0 +1,26 @@
+.sale {
+    margin-top: 60px;
+    width: 100%;
+    color: #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content:center;
+    gap: 30px;
+    
+    &__title {
+        margin: auto;
+        grid-column: 1 / 4; 
+        
+        line-height: 1.5;
+        margin-bottom: 15px;
+        font-size: 48px;
+    }
+    &__parag {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+
+
+
+}

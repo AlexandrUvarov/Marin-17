@@ -1,0 +1,16 @@
+.footer {
+    background: #2D5E5E;
+    height: 190px;
+    display: flex;
+    align-items: center;
+
+    &__list {
+        list-style: none;
+        display: flex;
+        gap: 45px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    
+}

@@ -1,0 +1,47 @@
+.news {
+    background-image: url(../img/calcul.png);
+    background-size: cover;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 5px 90px;
+    height: 564px;
+
+    &__title {
+        margin: 0;
+        grid-column: 1 / 3; 
+        grid-row: 1 / 2;
+        line-height: 1.5;
+        margin-bottom: 25px;
+        font-size: 48px;
+        // min-width: 340px;
+    }
+
+    &__desc {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.3;
+}
+
+
+    &_one {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    }
+
+    &_two {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+    }
+
+    &_three {
+        grid-row: 2 / 3;
+        grid-column: 3 / 4;
+    }
+
+    &__img {
+        margin-bottom: 18px;
+    }
+
+}

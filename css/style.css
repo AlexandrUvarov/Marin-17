@@ -431,6 +431,21 @@ a {
   grid-column: 1/2;
   grid-row: 8/8;
 }
+.btn_names {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  width: 400px;
+}
+.btn_telefon {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  width: 400px;
+}
+.btn_sender {
+  grid-column: 3/3;
+  grid-row: 2/3;
+  width: 400px;
+}
 
 .header {
   display: flex;
@@ -520,7 +535,7 @@ a {
   display: grid;
   grid-template-columns: 250px 250px 1fr 494px;
   grid-template-rows: auto 1fr auto;
-  gap: 35px 30px;
+  gap: 35px 31px;
 }
 .about__img {
   grid-row: 1/4;
@@ -545,10 +560,6 @@ a {
   grid-template-rows: auto auto;
   gap: 35px 30px;
 }
-.record__img {
-  grid-row: 5/6;
-  grid-column: 2/7;
-}
 .record__title {
   margin: auto;
   grid-column: 1/3;
@@ -567,6 +578,210 @@ a {
   margin-left: 170px;
   grid-column: 1/2;
   grid-row: 7/7;
+}
+
+.price {
+  background-image: url(../img/counter.jpg);
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  gap: 148px;
+  height: 386px;
+}
+.price__item {
+  min-width: 300px;
+  text-align: center;
+}
+.price__title {
+  margin-top: 60px;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.5;
+}
+.price__text {
+  font-size: 24px;
+  font-weight: 700;
+}
+.price__desc {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.footer {
+  background: #2D5E5E;
+  height: 190px;
+  display: flex;
+  align-items: center;
+}
+.footer__list {
+  list-style: none;
+  display: flex;
+  gap: 45px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sale {
+  margin-top: 60px;
+  width: 100%;
+  color: #000;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 30px;
+}
+.sale__title {
+  margin: auto;
+  grid-column: 1/4;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  font-size: 48px;
+}
+.sale__parag {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.contacts {
+  background-image: url(../img/map.png);
+  background-size: cover;
+  height: 600px;
+}
+.contacts__list {
+  background-image: url(../img/rec.png);
+  background-size: cover;
+  margin-top: 128px;
+  position: absolute;
+  list-style: none;
+  margin-left: 928px;
+  width: 477px;
+  height: 344px;
+}
+.contacts__link {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.contacts__title {
+  font-size: 48px;
+  color: #2D5E5E;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.news {
+  background-image: url(../img/calcul.png);
+  background-size: cover;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 5px 90px;
+  height: 564px;
+}
+.news__title {
+  margin: 0;
+  grid-column: 1/3;
+  grid-row: 1/2;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  font-size: 48px;
+}
+.news__desc {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.news_one {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+.news_two {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+.news_three {
+  grid-row: 2/3;
+  grid-column: 3/4;
+}
+.news__img {
+  margin-bottom: 18px;
+}
+
+.reviews {
+  min-height: 450px;
+}
+.reviews__title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.reviews__block {
+  margin: auto;
+  background-image: url(../img/Rectan.png);
+  background-size: cover;
+  width: 600px;
+  height: 260px;
+}
+.reviews__help {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.reviews__picture {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+
+.faq {
+  margin-bottom: 20px;
+}
+.faq__toggler {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.faq__marker {
+  color: #000;
+  display: block;
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
+  background: #000;
+  background-color: #FFF;
+}
+.faq__title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+}
+.faq__content {
+  padding-left: 36px;
+  margin-top: 20px;
+}
+.faq__titles {
+  font-size: 48px;
+  text-align: center;
+}
+.faq[open] {
+  margin-bottom: 40px;
+}
+.faq[open] .faq__marker {
+  rotate: 45deg;
+  background-color: #FFF;
+}
+.faq[open] .faq__title {
+  color: #205E5E;
 }
 
 /*# sourceMappingURL=style.css.map */

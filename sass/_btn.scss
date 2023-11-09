@@ -51,7 +51,6 @@
         margin-top: 110px;
     }
     &_max {
-        // padding: 0;
         max-width: 350px;
         min-height: 180px;
         grid-column: 2/2;
@@ -59,19 +58,32 @@
         background: transparent;
         }
 
-    // &_check {
-            
-    //         grid-column: 2/2;
-    //         grid-row: 6/7;
-            
-    //     }
-        &_send {
-            margin-left: 250px;
-            grid-column: 1/2;
-            grid-row: 8/8;
+    &_send {
+        margin-left: 250px;
+        grid-column: 1/2;
+        grid-row: 8/8;
             
         }
 
+        &_names {
+            grid-column: 1/2;
+            grid-row: 2/3;
+            width: 400px;
+            
+        }
+    
+        &_telefon {
+            grid-column: 2/3;
+            grid-row: 2/3;
+            width: 400px;
+            
+        }
+
+        &_sender {
+            grid-column: 3/3;
+            grid-row: 2/3; 
+            width: 400px;  
+        }
 
 
 }

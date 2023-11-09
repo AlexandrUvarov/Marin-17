@@ -1,0 +1,40 @@
+.reviews {
+
+    min-height: 450px;
+
+&__title {
+
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.5; 
+    }
+
+&__block {
+    margin:auto;
+    background-image: url(../img/Rectan.png);
+    background-size: cover;
+    width: 600px;
+    height: 260px;
+}
+
+&__help {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+
+&__picture {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    
+}
+
+
+
+}

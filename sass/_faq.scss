@@ -1,0 +1,54 @@
+.faq {
+    margin-bottom: 20px;
+    &__toggler {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+
+    
+    &__marker {
+        color: #000;
+        display: block;
+        width: 20px;
+        min-width: 20px;
+        height: 20px;
+        background: #000;
+        background-color: #FFF;
+        &_kr {
+            
+        }
+    
+    }
+    
+
+    &__title {
+        font-weight: 700;
+        font-size: 24px;
+        color: #000;
+    }
+    &__content {
+        padding-left: 36px;
+        margin-top: 20px;
+    }
+
+    &__titles {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    &[open] {
+        margin-bottom: 40px;
+        .faq {
+            &__marker {
+                rotate: 45deg;
+                 background-color: #FFF;
+                 }
+        
+            &__title {
+                color: #205E5E;
+            }
+        }
+    }
+
+}
