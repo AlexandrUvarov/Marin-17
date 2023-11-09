@@ -6,6 +6,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-content:center;
     gap: 30px;
+
+    
     
     &__title {
         margin: auto;
@@ -18,6 +20,13 @@
     &__parag {
         grid-column: 2/3;
         grid-row: 3/4;
+
+        @media screen and (max-width: 767px) {
+            grid-row: 5/6;
+            grid-column: 1 / 2;
+            max-width: 369px;
+            
+        }
     }
 
 

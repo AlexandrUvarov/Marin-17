@@ -9,10 +9,11 @@
   </head>
   <body>
     <header class="center header">
-      <a href="#" class="logo">
+        <a href="#" class="logo">
         <img src="img/logo.png" alt="logo" />
       </a>
       <nav class="nav">
+        <input type="checkbox" id="open_menu" class="visually-hidden">
         <ul class="nav__list">
           <li class="nav__item">
             <a class="nav__link nav__link_active" href="#">Главная</a>
@@ -23,8 +24,9 @@
           <li class="nav__item"><a class="nav__link" href="#">Контакты</a></li>
           <li class="nav__item"><a class="nav__link" href="#">Блог</a></li>
         </ul>
+        <label for="open_menu">MENU</label>
       </nav>
-    </header>
+      </header>
     <main>
       <section class="center offer">
         <h1 class="offer__title">Ваш личный психолог в Кривом Роге</h1>
@@ -79,21 +81,28 @@
           парадигматическая страна, в которой жаренные члены предложения
           залетают прямо.
         </p>
+        <div class="about__btns">
         <button class="btn btn_bordered">Задать вопрос</button>
 
         <a href="#" class="btn"> Хочу консультацию </a>
+        </div>
         <img src="img/photo.jpg" alt="photo" class="about__img">
       </section>
     
       <section class="center record">
+           
         <h2 class="record__title">Записаться на прием</h2>
+        
         <input class="btn btn_bordered btn_name" type="text" placeholder="Ваше имя*">
         <input class="btn btn_bordered btn_telef" type="text" placeholder="Ваш телефон*">
         <input class="btn btn_bordered btn_tema" type="text" placeholder="Тема встречи*">
         <input class="btn btn_bordered btn_max" type="text" placeholder="Пожелания">
         <img src="img/check.svg" alt="check" class="record__img btn_check">
+        
         <p class="record__par">Я согласен с политикой конфиденциальности</p>
         <button class="btn btn btn_send">Отправить</button>
+       
+       
       </section>
 
       <section class="price center">
@@ -253,41 +262,6 @@
   </section>
 
 
-
-
-
-
-
-
-
-
-      <section>
-
-      <details>
-        <summary>
-          <img src="img/krest.png" alt="krest">
-          Сколько длится сессия?
-        </summary>
-          Не меньше двух часов, но не больше полугода.
-          
-        </details>
-
-        <details>
-          <summary>
-            <img src="img/Vector.svg" alt="krest">
-            Сколько стоит консультация?
-          </summary>
-           В будни 5000 грн., а в выходные 10000 грн.
-          </details>
-
-          <details>
-            <summary>
-              Что из себя представляют консультации?
-            </summary>
-              Медитативные разговоры о прошлом, буудущем и настоящем.
-            </details>
-      </section>
-
       <section class="center contacts">
 
         <nav class="contacts">
@@ -347,7 +321,6 @@
       
       <button class="btn btn btn_sender">Записаться со скидкой</button>
 
-      <!-- <img src="img/check.svg" alt="checkin" class="record__img btn_checkin"> -->
       
       <p class="sale__parag">Я согласен с политикой конфиденциальности</p>
       
